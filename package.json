@@ -1,0 +1,14 @@
+{
+  "name": "ncms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Stefan Probst <stefanprobst@kolabnow.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify-cms-proxy-server & serve ."
+  },
+  "devDependencies": {
+    "netlify-cms-proxy-server": "^1.3.4",
+    "serve": "^11.3.2"
+  }
+}

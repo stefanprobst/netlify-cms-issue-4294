@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+local_backend: true
+media_folder: /public/assets
+public_folder: /assets
+collections:
+  - name: posts
+    label: Posts
+    create: true
+    folder: posts
+    fields:
+      - name: title
+        label: Title
+      - name: body
+        title: Body
+        widget: markdown
